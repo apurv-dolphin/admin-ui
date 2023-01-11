@@ -1,0 +1,132 @@
+ul,
+li {
+  display: inline-block;
+  width: 16rem;
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0px;
+}
+
+li,
+span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+li:hover {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  margin-right: 20px;
+}
+
+hr {
+  display: block;
+  margin: 0px 16px;
+  border: 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  margin: 0 1rem 1rem;
+}
+
+.laugh-icon {
+  font-size: 2rem;
+  margin: 15px;
+}
+
+.sidebar-brandname {
+  display: flex;
+  height: 4.375rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  z-index: 1;
+  justify-content: center;
+}
+
+.nav-item {
+  display: block;
+  text-align: left;
+  padding: 1px 15px;
+  width: 14rem;
+}
+.sidebar-labled {
+  margin-top: -2px;
+}
+.sidebar-accordian {
+  font-size: 0.8rem;
+  margin-top: 3px;
+  float: right;
+}
+
+.sidebar-heading {
+  text-align: left;
+  padding: 0 1rem;
+  font-weight: 800;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.sidebar-toggle {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-btn {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding-top: 6px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+
+.accordian {
+  margin: 0 1rem;
+}
+
+.accordian-contain {
+  padding: 0.5rem 0;
+  width: 14rem;
+  font-size: 0.85rem;
+  margin: 0 0 1rem 0;
+  border-radius: 0.39rem !important;
+  background-color: #fff !important;
+}
+
+.accordian-header {
+  margin: 0;
+  white-space: nowrap;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.75rem;
+  color: #b7b9cc;
+}
+
+.accordian-item {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  display: block;
+  color: #3a3b45;
+  text-decoration: none;
+  border-radius: 0.35rem;
+  white-space: nowrap;
+}
