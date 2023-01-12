@@ -15,10 +15,18 @@ import { Link } from "react-router-dom";
 
 export default function SiderBar() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [show, setShow] = useState(false);
+  const [showComponent, setShowComponent] = useState(false);
+  const [showUtilities, setShowUtilities] = useState(false);
+  const [showPages, setShowPages] = useState(false);
 
   const openAccordian = (id) => {
-    setShow(!show);
+    if (id === 1) {
+      setShowComponent(!showComponent);
+    } else if (id === 2) {
+      setShowUtilities(!showUtilities);
+    } else if (id === 3) {
+      setShowPages(!showPages);
+    }
     setActiveIndex(id);
   };
 
@@ -52,7 +60,7 @@ export default function SiderBar() {
           </span>
           <span>Components</span>
           <span className="sidebar-accordian">
-            {activeIndex === 1 && show ? (
+            {activeIndex === 1 && showComponent ? (
               <FaAngleDown fontSize={20} />
             ) : (
               <FaGreaterThan />
@@ -60,7 +68,7 @@ export default function SiderBar() {
           </span>
         </p>
       </li>
-      {activeIndex === 1 && show && (
+      {activeIndex === 1 && showComponent && (
         <div className="accordian">
           <div className="accordian-contain">
             <h6 className="accordian-header">Custom Components:</h6>
@@ -80,7 +88,7 @@ export default function SiderBar() {
           </span>
           <span>Utilities</span>
           <span className="sidebar-accordian">
-            {activeIndex === 2 && show ? (
+            {activeIndex === 2 && showUtilities ? (
               <FaAngleDown fontSize={20} />
             ) : (
               <FaGreaterThan />
@@ -88,7 +96,7 @@ export default function SiderBar() {
           </span>
         </p>
       </li>
-      {activeIndex === 2 && show && (
+      {activeIndex === 2 && showUtilities && (
         <div className="accordian">
           <div className="accordian-contain">
             <h6 className="accordian-header">Custom Utilities:</h6>
@@ -116,7 +124,7 @@ export default function SiderBar() {
           </span>
           <span>Pages</span>
           <span className="sidebar-accordian">
-            {activeIndex === 3 && show ? (
+            {activeIndex === 3 && showPages ? (
               <FaAngleDown fontSize={20} />
             ) : (
               <FaGreaterThan />
@@ -124,7 +132,7 @@ export default function SiderBar() {
           </span>
         </p>
       </li>
-      {activeIndex === 3 && show && (
+      {activeIndex === 3 && showPages && (
         <div className="accordian">
           <div className="accordian-contain">
             <h6 className="accordian-header">Login screens:</h6>
@@ -148,20 +156,24 @@ export default function SiderBar() {
         </div>
       )}
       <li className="nav-item">
-        <p className="nav-contain">
-          <span>
-            <AiOutlineLineChart />
-          </span>
-          <span>Charts</span>
-        </p>
+        <Link to="/charts">
+          <p className="nav-contain">
+            <span>
+              <AiOutlineLineChart />
+            </span>
+            <span>Charts</span>
+          </p>
+        </Link>
       </li>
       <li className="nav-item">
-        <p className="nav-contain">
-          <span>
-            <CiViewTable />
-          </span>
-          <span>Tables</span>
-        </p>
+        <Link to="/tables">
+          <p className="nav-contain">
+            <span>
+              <CiViewTable />
+            </span>
+            <span>Tables</span>
+          </p>
+        </Link>
       </li>
       <hr />
       <div className="sidebar-toggle">

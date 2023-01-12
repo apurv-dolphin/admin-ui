@@ -17,6 +17,8 @@ import Other from "./component/Other/Other";
 import BlankPage from "./component/BlankPage/BlankPage";
 import Error from "./component/Error/Error";
 import ForgotPassword from "./component/ForgotPassword/ForgotPassword";
+import Tables from "./component/Tables/Tables";
+import Charts from "./component/Charts/Charts";
 
 function App() {
   return (
@@ -45,9 +47,13 @@ function App() {
               <Route path="/forgotpassword" element={<ForgotPassword />} />
               <Route path="/other" element={<Other />} />
               <Route path="/blankpage" element={<BlankPage />} />
+              <Route path="/tables" element={<Tables />} />
+              <Route path="/charts" element={<Charts />} />
               <Route path="*" element={<Error />} />
             </Routes>
-            {/* <div className="scroll-to-top"><ScrollToTop /></div> */}
+            <div>
+              <ScrollToTop />
+            </div>
             <div className="footer-block">
               <Footer />
             </div>

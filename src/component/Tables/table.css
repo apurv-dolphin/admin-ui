@@ -1,0 +1,88 @@
+h1 {
+  color: #5a5c69;
+}
+h4 {
+  color: #4e73df;
+}
+
+a {
+  color: blue;
+  margin-left: 3px;
+}
+
+.main-table-container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.card-header {
+  padding: 0 1rem;
+  margin-bottom: 0;
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  color: #5a5c69;
+  margin-bottom: 10px;
+}
+
+.card-left {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+
+input {
+  width: 76%;
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  border: 1px solid #d1d3e2;
+}
+
+table,
+td,
+th {
+  vertical-align: bottom;
+  border: 2px solid #5a5c69;
+}
+
+td,
+th {
+  padding: 0.75rem;
+  vertical-align: top;
+}
+
+.card-footer {
+  margin-top: 15px;
+}

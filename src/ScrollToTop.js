@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./App.css";
 import { ImArrowUp } from "react-icons/im";
 
 export default function ScrollToTop() {
@@ -23,12 +23,12 @@ export default function ScrollToTop() {
   };
 
   return (
-    <div>
+    <>
       {topButton && (
-        <div onClick={scrollUp}>
+        <div className="scroll-to-top" onClick={scrollUp}>
           <ImArrowUp />
         </div>
       )}
-    </div>
+    </>
   );
 }
