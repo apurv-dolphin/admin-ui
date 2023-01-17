@@ -18,14 +18,15 @@
   padding: 0.5rem 1rem;
 }
 
+.main-content {
+  min-height: calc(100vh - 146px);
+}
+
 .footer-block {
-  z-index: -1;
-  margin-top: 1.5rem !important;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
 }
 
 .header-block {
-  margin-bottom: 1.5rem !important;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
 }
 
@@ -40,4 +41,5 @@
   background: #646464;
   line-height: 46px;
   cursor: pointer;
+  border-radius: 0.35rem !important;
 }

@@ -1,0 +1,14 @@
+.form-groups {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem !important;
+}
+
+.input-size {
+  width: 50%;
+}
+
+.inputbox {
+  border-radius: 1.2rem !important;
+  border: 1px solid #d1d3e2 !important;
+}

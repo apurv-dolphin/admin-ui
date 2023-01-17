@@ -1,0 +1,30 @@
+.para {
+  flex: 1 1 auto;
+  min-height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.rotate {
+  display: inline-block !important;
+  justify-content: center;
+  color: #fff !important;
+  padding: 1rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+  transform: rotate(15deg);
+}
+
+.primaryss {
+  background-color: #4e73df !important;
+}
+
+.n-15 {
+  transform: rotate(-15deg) !important;
+}
+
+.mb-1-small {
+  font-size: 80%;
+  font-weight: 400;
+  margin-bottom: 0.25rem !important;
+}

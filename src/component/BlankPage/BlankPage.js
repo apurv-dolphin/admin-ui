@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
 
 export default function BlankPage() {
+
+
   return (
-    <div>BlankPage</div>
-  )
+    <div className="card-page">
+      <div className="color-headers">
+        <h1>Blank Page</h1>
+      </div>
+    </div>
+  );
 }

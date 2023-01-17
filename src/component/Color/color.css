@@ -1,0 +1,145 @@
+.color-headers-para {
+  margin-top: 0;
+  margin-bottom: 1.5rem !important;
+  color: #858796;
+}
+
+.conatainer {
+  display: flex;
+}
+
+.text {
+  padding: 1rem;
+  margin: 0 !important;
+}
+
+.bg-dark {
+  background-color: #5a5c69;
+  color: #dddfeb;
+}
+
+.disable {
+  color: #b7b9cc;
+}
+
+.gray-700 {
+  color: #6e707e;
+}
+
+.bg-gradient {
+  padding: 3rem 1rem !important;
+  color: #fff !important;
+  background-size: cover !important;
+}
+
+.primary {
+  background-color: #4e73df !important;
+  background-image: linear-gradient(
+    180deg,
+    #4e73df 10%,
+    #224abe 100%
+  ) !important;
+}
+
+.secondary {
+  background-color: #858796 !important;
+  background-image: linear-gradient(
+    180deg,
+    #858796 10%,
+    #60616f 100%
+  ) !important;
+}
+
+.success {
+  background-color: #1cc88a !important;
+  background-image: linear-gradient(
+    180deg,
+    #1cc88a 10%,
+    #13855c 100%
+  ) !important;
+}
+
+.info {
+  background-color: #36b9cc !important;
+  background-image: linear-gradient(
+    180deg,
+    #36b9cc 10%,
+    #258391 100%
+  ) !important;
+}
+
+.warning {
+  background-color: #f6c23e !important;
+  background-image: linear-gradient(
+    180deg,
+    #f6c23e 10%,
+    #dda20a 100%
+  ) !important;
+}
+
+.danger {
+  background-color: #e74a3b !important;
+  background-image: linear-gradient(
+    180deg,
+    #e74a3b 10%,
+    #be2617 100%
+  ) !important;
+}
+
+.light {
+  background-color: #f8f9fc !important;
+  background-image: linear-gradient(
+    180deg,
+    #f8f9fc 10%,
+    #c2cbe5 100%
+  ) !important;
+}
+
+.dark {
+  background-color: #5a5c69;
+  background-image: linear-gradient(180deg, #5a5c69 10%, #373840 100%);
+}
+
+.gray-100 {
+  background-color: #f8f9fc !important;
+}
+.gray-200 {
+  background-color: #eaecf4 !important;
+}
+.gray-300 {
+  background-color: #dddfeb !important;
+}
+.gray-400 {
+  background-color: #d1d3e2 !important;
+}
+.gray-500 {
+  background-color: #b7b9cc !important;
+  color: #fff;
+}
+.gray-600 {
+  background-color: #858796 !important;
+  color: #fff;
+}
+.grays-700 {
+  background-color: #6e707e !important;
+  color: #fff;
+}
+.gray-800 {
+  background-color: #5a5c69 !important;
+  color: #fff;
+}
+.gray-900 {
+  background-color: #3a3b45 !important;
+  color: #fff;
+}
+
+.xs {
+  font-size: 0.7rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 1.2rem;
+  margin-bottom: 0 !important;
+}

@@ -32,14 +32,16 @@ export default function SiderBar() {
 
   return (
     <ul>
-      <div className="sidebar-brandname">
-        <p className="laugh-icon">
-          <BsEmojiLaughing style={{ transform: "rotate(-15deg)" }} />
-        </p>
-        <p style={{ display: "inline" }}>
-          AK ADMIN <sup>2</sup>
-        </p>
-      </div>
+      <Link to="/">
+        <div className="sidebar-brandname">
+          <p className="laugh-icon">
+            <BsEmojiLaughing style={{ transform: "rotate(-15deg)" }} />
+          </p>
+          <p style={{ display: "inline" }}>
+            AK ADMIN <sup>2</sup>
+          </p>
+        </div>
+      </Link>
       <hr />
       <li className="nav-item">
         <Link to="/">

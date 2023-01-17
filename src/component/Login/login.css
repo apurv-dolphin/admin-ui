@@ -1,0 +1,99 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  width: 96%;
+}
+
+.login-image {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbdY3EeFEydb3-PRx1ILQpDosrm4IaanrXAQ&usqp=CAU);
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.user-area {
+  width: 30%;
+  padding: 3rem !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.input-tags {
+  width: 100%;
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  border: 1px solid #d1d3e2;
+}
+
+.custom-control {
+  position: relative;
+  z-index: 1;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+  -webkit-print-color-adjust: exact;
+}
+
+.small-checkbox {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+input#customCheck {
+  width: -1%;
+  height: 13px;
+  width: 30%;
+  margin-left: -3rem;
+  color: #858796 !important;
+}
+
+label.checkbox-label {
+  margin-left: -51px !important;
+  color: #858796;
+}
+
+.login-btn {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 0.85rem 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #4e73df !important;
+  color: #fff !important;
+}
+
+.login-btn-google {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 0.85rem 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #ea4335 !important;
+  color: #fff !important;
+}
+
+.login-btn-facebook {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 0.85rem 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #3b5998 !important;
+  color: #fff !important;
+  margin-top: 0.5rem;
+}

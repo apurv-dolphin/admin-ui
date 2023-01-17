@@ -34,23 +34,25 @@ function App() {
             <div className="header-block">
               <Header />
             </div>
-            <Routes>
-              <Route path="/" element={<DashBoard />} />
-              <Route path="/buttons" element={<Buttons />} />
-              <Route path="/cards" element={<Cards />} />
-              <Route path="/colors" element={<Color />} />
-              <Route path="/borders" element={<Border />} />
-              <Route path="/animation" element={<Animation />} />
-              <Route path="/others" element={<Others />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
-              <Route path="/forgotpassword" element={<ForgotPassword />} />
-              <Route path="/other" element={<Other />} />
-              <Route path="/blankpage" element={<BlankPage />} />
-              <Route path="/tables" element={<Tables />} />
-              <Route path="/charts" element={<Charts />} />
-              <Route path="*" element={<Error />} />
-            </Routes>
+            <div className="main-content">
+              <Routes>
+                <Route path="/" element={<DashBoard />} />
+                <Route path="/buttons" element={<Buttons />} />
+                <Route path="/cards" element={<Cards />} />
+                <Route path="/colors" element={<Color />} />
+                <Route path="/borders" element={<Border />} />
+                <Route path="/animation" element={<Animation />} />
+                <Route path="/others" element={<Others />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/forgotpassword" element={<ForgotPassword />} />
+                <Route path="/other" element={<Other />} />
+                <Route path="/blankpage" element={<BlankPage />} />
+                <Route path="/tables" element={<Tables />} />
+                <Route path="/charts" element={<Charts />} />
+                <Route path="*" element={<Error />} />
+              </Routes>
+            </div>
             <div>
               <ScrollToTop />
             </div>
