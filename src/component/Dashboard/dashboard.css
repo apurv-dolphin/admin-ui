@@ -1,0 +1,18 @@
+.small-card {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  border-radius: 0.35rem;
+  margin: 0.5rem;
+  color: #fff;
+}
+
+.color-name {
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.sucess {
+  background-color: #1cc88a;
+}

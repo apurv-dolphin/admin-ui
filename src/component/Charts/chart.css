@@ -1,0 +1,24 @@
+.button-Page-container.chart-left {
+  width: 70%;
+}
+
+svg.dount-chart {
+  height: 500px !important;
+  width: 500px !important;
+}
+
+.tooltip-wrap {
+  pointer-events: none;
+  position: absolute;
+  left: 35px;
+  top: 6px;
+  width: 610.375px;
+  height: 263px;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+}
+
+.recharts-surface {
+  width: 800px !important;
+}
