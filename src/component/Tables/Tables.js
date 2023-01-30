@@ -62,7 +62,7 @@ export default function Tables() {
             </div>
           </div>
           <div>
-            <table>
+            <table border={0}>
               <tr>
                 <th>No.</th>
                 <th>Name</th>

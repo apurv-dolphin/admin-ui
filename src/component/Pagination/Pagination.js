@@ -24,7 +24,6 @@ export default function Pagination(props) {
           {props.total < 7 ? (
             <>
               {Array.apply(0, Array(props.total)).map((arr, i) => (
-                <>
                   <li
                     key={i}
                     className={`page-item ${
@@ -39,7 +38,6 @@ export default function Pagination(props) {
                       {i + 1}
                     </a>
                   </li>
-                </>
               ))}
             </>
           ) : props.current % 5 >= 0 &&

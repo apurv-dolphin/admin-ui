@@ -4,6 +4,10 @@
   margin-bottom: 1rem !important;
 }
 
+input:focus {
+  outline: none;
+}
+
 .input-size {
   width: 50%;
 }
@@ -21,4 +25,25 @@
   color: red;
   text-align: center;
   font-size: 0.85rem;
+}
+
+.form-control,
+.react-tel-input {
+  width: 100% !important;
+}
+
+.country-name,
+.dial-code {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black !important;
+}
+
+.country {
+  width: 100% !important;
+}
+
+.country-list {
+  position: relative !important;
+  width: 100% !important;
 }

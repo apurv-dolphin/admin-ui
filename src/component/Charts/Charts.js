@@ -6,7 +6,7 @@ import DoughuntChart from "./DoughuntChart";
 import LineChart from "./LineChart";
 
 export default function Charts() {
-  const [chartData, setChartData] = useState({
+  const [chartData] = useState({
     labels: Data.map((data) => data.year),
 
     datasets: [
@@ -23,8 +23,9 @@ export default function Charts() {
           "rgb(149, 62, 230)",
           "rgb(245, 69, 77)"
         ],
-        borderColor: "black",
-        borderWidth: 2,
+        borderColor: "#202f47",
+        borderWidth: 1.5,
+        pointRadius: 3
       },
     ],
   });

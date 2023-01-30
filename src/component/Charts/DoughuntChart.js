@@ -9,16 +9,22 @@ export default function DoughuntChart() {
         label: 'Apurv khalas',
         data: [25, 24, 25, 25, 3],
         borderColor: ['rgba(255,206,86,0.2)'],
-        backgroundColor: ['rgba(232,99,132,1)',
-          'rgba(232,211,6,1)',
-          'rgba(54,162,235,1)',
-          'rgba(255,159,64,1)',
-          'rgba(153,102,255,1)'],
+        backgroundColor: ['#f70800',
+          '#fcba03',
+          '#096ced',
+          '#ed5d09',
+          '#9909ed'],
+          hoverBackgroundColor: [
+            '#f75752',
+            '#f2ef2e',
+            '#4254fc',
+            '#e87b27',
+            '#8454e3',
+          ],
         pointBackgroundColor: 'rgba(255,206,86,0.2)',
         borderWidth: 0,
-        cutout: "65%",
+        cutout: "80%",
       },
-
     ]
   }
 

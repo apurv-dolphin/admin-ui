@@ -68,10 +68,15 @@ export default function DashBoard() {
       <div className="button-group">
         <div className="card-section-header py-3">Illustrations</div>
         <div className="card-section-body">
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
             <img
               style={{ textAlign: "center", width: "30rem", padding: "1.5rem" }}
               src="./undraw_posting_photo.svg"
+              alt="..."
+            />
+            <img
+              style={{ textAlign: "center", width: "30rem", padding: "1.5rem" }}
+              src="./undraw_react_re_g3ui.svg"
               alt="..."
             />
           </div>

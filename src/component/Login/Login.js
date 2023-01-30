@@ -1,8 +1,32 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "../Login/login.css";
 
 export default function Login() {
+  const [loginDetail, setLoginDetail] = useState({
+    email: "",
+    password: "",
+  });
+
+  const navigation = useNavigate();
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setLoginDetail({
+      ...loginDetail,
+      [name]: value,
+    });
+  };
+
+  const handleLogin = () => {
+    if (!loginDetail.email || !loginDetail.password) {
+      alert("Somthing Went to wrong")
+    } else {
+      navigation("/");
+    }
+  }
+
   return (
     <div className="login-container">
       <div className="login-image"></div>
@@ -14,18 +38,22 @@ export default function Login() {
           <div className="form-group">
             <input
               type="email"
+              name="email"
               className="input-tags"
               id="exampleInputEmail"
               aria-describedby="emailHelp"
               placeholder="Enter Email Address..."
+              onChange={handleChange}
             />
           </div>
           <div className="form-group">
             <input
               type="password"
+              name="password"
               className="input-tags"
               id="exampleInputPassword"
               placeholder="Password"
+              onChange={handleChange}
             />
           </div>
           <div className="form-group">
@@ -40,9 +68,9 @@ export default function Login() {
               </label>
             </div>
           </div>
-          <Link to="/" className="login-btn">
+          <button to="/" className="login-btn" onClick={handleLogin}>
             Login
-          </Link>
+          </button>
           <hr
             style={{
               marginTop: "1rem",

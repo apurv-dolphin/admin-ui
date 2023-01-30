@@ -63,12 +63,18 @@ hr {
   padding: 1px 15px;
   width: 14rem;
 }
+
+.nav-contain {
+  display: flex;
+  align-items: center;
+}
+
 .sidebar-labled {
   margin-top: -2px;
 }
 .sidebar-accordian {
   font-size: 0.8rem;
-  margin-top: 3px;
+  margin-top: 5px;
   float: right;
 }
 

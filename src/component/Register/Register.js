@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 import "../Register/register.css";
 
 export default function Register() {
@@ -117,6 +119,13 @@ export default function Register() {
               style={{ marginRight: "1.75rem" }}
               value={userData.email}
               onChange={handleInput}
+            />
+          </div>
+          <div className="form-groups">
+            <PhoneInput
+              country={"in"}
+              // value={this.state.phone}
+              // onChange={(phone) => this.setState({ phone })}
             />
           </div>
           <div className="form-groups">
