@@ -27,6 +27,7 @@ input:focus {
   font-size: 0.85rem;
 }
 
+// over-ride the react-phone-input-2 package css
 .form-control,
 .react-tel-input {
   width: 100% !important;
